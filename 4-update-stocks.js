@@ -1,9 +1,9 @@
 import fs from "fs";
 import {availability} from "./extractors/availability.js";
 import {crawlUrl} from "./helpers/crawl.js";
-import {PHASE_3_AUGMENTED} from "./constants/filenames.js";
+import {PHASE_3_AUGMENTED_MANUALLY} from "./constants/filenames.js";
 
-const raw = fs.readFileSync(PHASE_3_AUGMENTED);
+const raw = fs.readFileSync(PHASE_3_AUGMENTED_MANUALLY);
 const malts = JSON.parse(raw);
 
 
