@@ -1,0 +1,23 @@
+{
+  "name": "piquiri-scraper",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "1": "node -r dotenv/config 1-fetch-sitemap.js",
+    "2": "node -r dotenv/config 2-parse-and-crawl-sitemap.js",
+    "3": "node -r dotenv/config 3-ai-augment-data.js",
+    "4": "node -r dotenv/config 4-update-stocks.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "jsonpath-plus": "^10.2.0",
+    "node-html-parser": "^7.0.1",
+    "openai": "^4.83.0",
+    "simple-xml-to-json": "^1.2.3"
+  }
+}
