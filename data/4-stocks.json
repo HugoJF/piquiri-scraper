@@ -48,7 +48,12 @@
     ],
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-acid-100g",
-    "color": null,
+    "color": {
+      "ebc": {
+        "min": 6,
+        "max": 12
+      }
+    },
     "maxUsage": 0.05
   },
   {
@@ -121,9 +126,7 @@
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/produto/malte-patagonia-caramel-55l-150ebc-100g.html",
     "color": {
-      "ebc": 150,
-      "lovibond": null,
-      "srm": null
+      "ebc": 150
     },
     "maxUsage": 0.2
   },
@@ -143,9 +146,7 @@
       "ebc": {
         "min": 20,
         "max": 25
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -161,7 +162,7 @@
     "color": {
       "ebc": 16
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Chateau Peated - 100g",
@@ -218,7 +219,7 @@
     "color": {
       "ebc": 4.6
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Viking Oat Aveia Maltada 100g",
@@ -236,9 +237,7 @@
       "ebc": {
         "min": 3,
         "max": 6
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.3
   },
@@ -258,9 +257,7 @@
       "ebc": {
         "min": 4,
         "max": 7
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -300,9 +297,7 @@
       "ebc": {
         "min": 1100,
         "max": 1250
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.05
   },
@@ -322,9 +317,7 @@
       "ebc": {
         "min": 2,
         "max": 4
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.5
   },
@@ -362,8 +355,7 @@
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-cara-ruby-cara-50-100g",
     "color": {
       "ebc": 50,
-      "lovibond": 19.3,
-      "srm": null
+      "lovibond": 19.3
     },
     "maxUsage": 0.2
   },
@@ -383,11 +375,9 @@
       "ebc": {
         "min": 2.5,
         "max": 3.5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Maltear Caramelo 20  100g",
@@ -422,18 +412,6 @@
       "ebc": 75
     },
     "maxUsage": 0.2
-  },
-  {
-    "name": "Maltodextrina 100g",
-    "description": "Maltodextrina Produto obtido através da hidrólise do amido de milho.  Sua utilização aumenta o corpo / densidade da cerveja.  Produto de Grau Alimentício. \nSem sabor Embalgem: 100g.",
-    "images": [
-      "https://cdn.awsli.com.br/600x1000/431/431888/produto/222920219405023f5a1.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/260583750421635a7fa.jpg"
-    ],
-    "availability": "http://schema.org/InStock",
-    "url": "https://www.piquiribrewshop.com.br/produto/maltodextrina-100g.html",
-    "color": null,
-    "maxUsage": null
   },
   {
     "name": "Malte Muntons Crystal Dark - 100g",
@@ -503,8 +481,7 @@
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-cafe-light-100g",
     "color": {
       "ebc": 250,
-      "lovibond": 94.8,
-      "srm": null
+      "lovibond": 94.8
     },
     "maxUsage": 0.1
   },
@@ -541,9 +518,7 @@
       "ebc": {
         "min": 3,
         "max": 4
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -581,8 +556,7 @@
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-biscuit-100g",
     "color": {
       "ebc": 50,
-      "lovibond": 19.3,
-      "srm": null
+      "lovibond": 19.3
     },
     "maxUsage": 0.15
   },
@@ -606,8 +580,7 @@
       "lovibond": {
         "min": 28.7,
         "max": 32.4
-      },
-      "srm": null
+      }
     },
     "maxUsage": 0.2
   },
@@ -627,9 +600,7 @@
       "ebc": {
         "min": 3,
         "max": 5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -663,11 +634,9 @@
     "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/produto/malte-maltear-munich-100g-2023-01-12-17-49-59.html",
     "color": {
-      "ebc": 16,
-      "lovibond": null,
-      "srm": null
+      "ebc": 16
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Chateau Rye Malt (Centeio) - 100g",
@@ -681,8 +650,17 @@
     ],
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-rye-malt-centeio-100g",
-    "color": null,
-    "maxUsage": null
+    "color": {
+      "ebc": {
+        "min": 3,
+        "max": 8
+      },
+      "lovibond": {
+        "min": 1.7,
+        "max": 3.6
+      }
+    },
+    "maxUsage": 0.3
   },
   {
     "name": "Malte Patagonia Trigo - 100g",
@@ -740,9 +718,7 @@
       "ebc": {
         "min": 3,
         "max": 5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -804,9 +780,7 @@
       "ebc": {
         "min": 42,
         "max": 55
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.1
   },
@@ -884,8 +858,7 @@
       "lovibond": {
         "min": 8.8,
         "max": 10.7
-      },
-      "srm": null
+      }
     },
     "maxUsage": 0.6
   },
@@ -901,8 +874,13 @@
     ],
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-smoked-belga-defumado-100g",
-    "color": null,
-    "maxUsage": null
+    "color": {
+      "ebc": {
+        "min": 4,
+        "max": 12
+      }
+    },
+    "maxUsage": 1
   },
   {
     "name": "Malte Patagonia Caramel 15L / 40EBC - 100g",
@@ -918,8 +896,7 @@
     "url": "https://www.piquiribrewshop.com.br/produto/malte-patagonia-caramel-15l-40ebc-100g.html",
     "color": {
       "ebc": 40,
-      "lovibond": 15,
-      "srm": null
+      "lovibond": 15
     },
     "maxUsage": 0.2
   },
@@ -939,9 +916,7 @@
       "ebc": {
         "min": 3,
         "max": 4
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -961,9 +936,7 @@
       "ebc": {
         "min": 800,
         "max": 1000
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.15
   },
@@ -983,11 +956,9 @@
       "ebc": {
         "min": 64,
         "max": 72
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 0.2
   },
   {
     "name": "Malte Viking Golden Ale - 100g",
@@ -1061,7 +1032,7 @@
     "color": {
       "ebc": 50
     },
-    "maxUsage": null
+    "maxUsage": 0.2
   },
   {
     "name": "Malte Thomas Fawcett Mild Ale - 100g",
@@ -1079,11 +1050,9 @@
       "ebc": {
         "min": 7.5,
         "max": 9
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Viking Roasted Barley (Cevada Torrada) - 100g",
@@ -1100,7 +1069,7 @@
     "color": {
       "ebc": 900
     },
-    "maxUsage": null
+    "maxUsage": 0.05
   },
   {
     "name": "Malte Weyermann Caramunich III - 100g",
@@ -1156,12 +1125,10 @@
     "color": {
       "ebc": {
         "min": 1350,
-        "max": null
-      },
-      "lovibond": null,
-      "srm": null
+        "max": 1500
+      }
     },
-    "maxUsage": null
+    "maxUsage": 0.06
   },
   {
     "name": "Malte Chateau Pale Ale - 100g",
@@ -1175,8 +1142,21 @@
     ],
     "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-pale-ale-100g",
-    "color": null,
-    "maxUsage": null
+    "color": {
+      "ebc": {
+        "min": 7,
+        "max": 10
+      },
+      "lovibond": {
+        "min": 3.2,
+        "max": 4.3
+      },
+      "srm": {
+        "min": 3.5,
+        "max": 5
+      }
+    },
+    "maxUsage": 1
   },
   {
     "name": "Malte Maltear Pilsen 100g",
@@ -1194,9 +1174,7 @@
       "ebc": {
         "min": 3,
         "max": 4
-      },
-      "srm": null,
-      "lovibond": null
+      }
     },
     "maxUsage": 1
   },
@@ -1230,7 +1208,7 @@
       "https://cdn.awsli.com.br/300x300/431/431888/produto/2427044898bc79b9ec.jpg",
       "https://cdn.awsli.com.br/300x300/431/431888/produto/4341523556ecf0368a.jpg"
     ],
-    "availability": "http://schema.org/OutOfStock",
+    "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-chocolate-100g",
     "color": {
       "ebc": {
@@ -1238,7 +1216,7 @@
         "max": 1000
       }
     },
-    "maxUsage": null
+    "maxUsage": 0.07
   },
   {
     "name": "Malte Chateau Crystal - 100g",
@@ -1256,9 +1234,7 @@
       "ebc": {
         "min": 145,
         "max": 155
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.2
   },
@@ -1315,9 +1291,7 @@
       "ebc": {
         "min": 4.6,
         "max": 6.4
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -1337,9 +1311,7 @@
       "ebc": {
         "min": 4.6,
         "max": 6.4
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -1358,7 +1330,7 @@
     "color": {
       "ebc": 4
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Chateau Cara Crystal - 100g",
@@ -1376,9 +1348,7 @@
       "ebc": {
         "min": 140,
         "max": 160
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.15
   },
@@ -1398,11 +1368,9 @@
       "ebc": {
         "min": 2.5,
         "max": 4.5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Weyermann Pilsen - 100g",
@@ -1478,8 +1446,7 @@
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-special-b-100g",
     "color": {
       "ebc": 300,
-      "lovibond": 113.1,
-      "srm": null
+      "lovibond": 113.1
     },
     "maxUsage": 0.1
   },
@@ -1499,11 +1466,9 @@
       "ebc": {
         "min": 4,
         "max": 6
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Chateau Vienna - 100g",
@@ -1517,8 +1482,17 @@
     ],
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-vienna-100g",
-    "color": null,
-    "maxUsage": null
+    "color": {
+      "ebc": {
+        "min": 5,
+        "max": 7
+      },
+      "lovibond": {
+        "min": 2.4,
+        "max": 3.2
+      }
+    },
+    "maxUsage": 1
   },
   {
     "name": "Malte Weyermann Defumado - 100g",
@@ -1536,9 +1510,7 @@
       "ebc": {
         "min": 4,
         "max": 8
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -1598,9 +1570,7 @@
       "ebc": {
         "min": 800,
         "max": 1050
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.15
   },
@@ -1654,13 +1624,9 @@
     "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/malte-viking-smoked-beech-100g",
     "color": {
-      "ebc": {
-        "max": 10
-      },
-      "lovibond": null,
-      "srm": null
+      "ebc": 10
     },
-    "maxUsage": null
+    "maxUsage": 0.9
   },
   {
     "name": "Malte Uma Malta Caradextrina (Balance Esencial) - 100g",
@@ -1699,7 +1665,7 @@
         "max": 10
       }
     },
-    "maxUsage": null
+    "maxUsage": 0.6
   },
   {
     "name": "Malte Dingemans Trigo Claro - 100g",
@@ -1717,9 +1683,7 @@
       "ebc": {
         "min": 2.5,
         "max": 3.5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.7
   },
@@ -1738,21 +1702,7 @@
     "color": {
       "ebc": 100
     },
-    "maxUsage": null
-  },
-  {
-    "name": "Extrato de Malte - 100G",
-    "description": "EXTRATO DE MALTE SECO (DME) - 100 gramas \n\r\nEquivalente ao Extrato de Malte Pilsen DRY BREW",
-    "images": [
-      "https://cdn.awsli.com.br/600x1000/431/431888/produto/728614229d9033bd0d.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/13590682215c77094bc.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/1359068208a03210299.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/1359068270942b7d496.jpg"
-    ],
-    "availability": "http://schema.org/OutOfStock",
-    "url": "https://www.piquiribrewshop.com.br/produto/extrato-de-malte-100g.html",
-    "color": null,
-    "maxUsage": null
+    "maxUsage": 0.5
   },
   {
     "name": "Malte Chateau Pilsen 6 Fileiras (6RW) - 100G",
@@ -1766,7 +1716,20 @@
     ],
     "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-pilsen-6-fileiras-6rw-100g",
-    "color": null,
+    "color": {
+      "ebc": {
+        "min": 3,
+        "max": 3.5
+      },
+      "lovibond": {
+        "min": 1.5,
+        "max": 1.7
+      },
+      "srm": {
+        "min": 1.2,
+        "max": 1.5
+      }
+    },
     "maxUsage": 1
   },
   {
@@ -1789,8 +1752,7 @@
       "srm": {
         "min": 70,
         "max": 70
-      },
-      "lovibond": null
+      }
     },
     "maxUsage": 0.2
   },
@@ -1810,9 +1772,7 @@
       "ebc": {
         "min": 2.5,
         "max": 6.5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": {
       "min": 0.05,
@@ -1861,21 +1821,6 @@
     "maxUsage": 1
   },
   {
-    "name": "Malte Chateau Oat Malt (Aveia Maltada) - 100g",
-    "description": "Malte importado belga produzido a partir de grãos descascados de aveia. Acidiona textura e sabor a qualquer cerveja tipo Porter ou Stout.Uso: cervejas escuras, como porters e stous. Ales britânicas fortes, cervejas de inverno.Propicia uma distinta sedosidade à cerveja. Ideal para aumentar o corpo, retenção de espuma e sabor das cerveja escuras. Utilizado como um adjunto de sabor, ele enaltece notas de biscoito na cerveja e dá um textura única e cremosa na boca. Adiciona textura e sabor para qualquer tipo de cerveja inglesa do tipo escura.corpo, retenção de espuma e sabor das cervejas escuras. Utilizado como um adjunto de sabor, ele enaltece notas de biscoito na cerveja e dá uma textura única e cremosa na boca. Adiciona textura e sabor para qualquer tipo de cerveja Inglesa do tipo escura.",
-    "images": [
-      "https://cdn.awsli.com.br/600x1000/431/431888/produto/40724554b9538e5480.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/18638280b0783e0769.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/2427044898bc79b9ec.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/18638420df5528ce5f.jpg",
-      "https://cdn.awsli.com.br/300x300/431/431888/produto/4341523556ecf0368a.jpg"
-    ],
-    "availability": "http://schema.org/InStock",
-    "url": "https://www.piquiribrewshop.com.br/produto/malte-chateau-oat-malt-aveia-maltada-100g.html",
-    "color": null,
-    "maxUsage": null
-  },
-  {
     "name": "Malte Chateau Cara Clair - 100g",
     "description": "Château Cara Clair é um tipo de malte caramelo muito claro belga. Intensifica o corpo da cerveja e sua suavidade, promove a formação do colarinho e sua consistência. Uso: Pilsen Lager, Bock, cervejas com baixo teor alcoólico  Aplicação:  Até 5% da mistura  Atributos: malte belga caramelizado de cor mais clara. Produzido por um processo de maltagem especial.  Características: Acrescenta notas suaves de biscoitos no aroma da cerveja.",
     "images": [
@@ -1887,7 +1832,10 @@
     ],
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-cara-clair-100g",
-    "color": null,
+    "color": {
+      "ebc": 9,
+      "lovibond": 3.94
+    },
     "maxUsage": 0.05
   },
   {
@@ -1906,9 +1854,7 @@
       "ebc": {
         "min": 30,
         "max": 35
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.3
   },
@@ -1980,9 +1926,7 @@
       "ebc": {
         "min": 20,
         "max": 30
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2016,9 +1960,7 @@
       "ebc": {
         "min": 5.5,
         "max": 7.5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2135,9 +2077,7 @@
       "ebc": {
         "min": 3,
         "max": 4
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2155,11 +2095,19 @@
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-diastatic-100g",
     "color": {
       "ebc": {
-        "min": 2,
-        "max": 3
+        "min": 3.5,
+        "max": 4.5
+      },
+      "lovibond": {
+        "min": 1.7,
+        "max": 2.1
+      },
+      "srm": {
+        "min": 1.5,
+        "max": 2
       }
     },
-    "maxUsage": null
+    "maxUsage": 0.05
   },
   {
     "name": "Malte Crisp Chocolate - 100g",
@@ -2177,9 +2125,7 @@
       "ebc": {
         "min": 900,
         "max": 1100
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.05
   },
@@ -2221,7 +2167,7 @@
         "max": 1000
       }
     },
-    "maxUsage": null
+    "maxUsage": 0.12
   },
   {
     "name": "Malte Weyermann Trigo Defumado Carvalho - 100g",
@@ -2239,9 +2185,7 @@
       "ebc": {
         "min": 4,
         "max": 6
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2261,9 +2205,7 @@
       "ebc": {
         "min": 12,
         "max": 18
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2301,8 +2243,7 @@
     "url": "https://www.piquiribrewshop.com.br/malte-chateau-arome-100g",
     "color": {
       "ebc": 100,
-      "lovibond": 38.1,
-      "srm": null
+      "lovibond": 38.1
     },
     "maxUsage": 0.2
   },
@@ -2313,7 +2254,7 @@
       "https://cdn.awsli.com.br/600x1000/431/431888/produto/202475773991d1af1a2.jpg",
       "https://cdn.awsli.com.br/300x300/431/431888/produto/24270326709eb68901.jpg"
     ],
-    "availability": "http://schema.org/InStock",
+    "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/produto/malte-maltear-chocolate-100g-2023-02-09-16-34-38.html",
     "color": {
       "ebc": 920,
@@ -2337,11 +2278,9 @@
       "ebc": {
         "min": 3.5,
         "max": 5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 0.05
   },
   {
     "name": "Malte Uma Malta Pilsen (El Jaguar Genuino) - 100g",
@@ -2363,8 +2302,7 @@
       "lovibond": {
         "min": 1.5,
         "max": 2.2
-      },
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2422,9 +2360,7 @@
       "ebc": {
         "min": 4,
         "max": 10
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.6
   },
@@ -2464,11 +2400,9 @@
       "ebc": {
         "min": 70,
         "max": 90
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 0.2
   },
   {
     "name": "Malte The Swaen Amber - 100g",
@@ -2506,9 +2440,7 @@
       "ebc": {
         "min": 1300,
         "max": 1600
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 0.05
   },
@@ -2525,9 +2457,7 @@
     "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/produto/malte-patagonia-caramel-special-140l-370ebc-100g.html",
     "color": {
-      "ebc": 370,
-      "lovibond": null,
-      "srm": null
+      "ebc": 370
     },
     "maxUsage": 0.2
   },
@@ -2564,9 +2494,7 @@
     "availability": "http://schema.org/OutOfStock",
     "url": "https://www.piquiribrewshop.com.br/produto/malte-viking-red-ale-100g.html",
     "color": {
-      "ebc": 70,
-      "lovibond": null,
-      "srm": null
+      "ebc": 70
     },
     "maxUsage": 0.2
   },
@@ -2586,9 +2514,7 @@
       "ebc": {
         "min": 20,
         "max": 25
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
@@ -2683,11 +2609,9 @@
       "ebc": {
         "min": 7,
         "max": 9
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
-    "maxUsage": null
+    "maxUsage": 1
   },
   {
     "name": "Malte Patagonia Melanoidina - 100g",
@@ -2702,9 +2626,7 @@
     "availability": "http://schema.org/InStock",
     "url": "https://www.piquiribrewshop.com.br/produto/malte-patagonia-melanoidina-100g.html",
     "color": {
-      "ebc": 75,
-      "lovibond": null,
-      "srm": null
+      "ebc": 75
     },
     "maxUsage": 0.2
   },
@@ -2739,9 +2661,7 @@
       "ebc": {
         "min": 5.5,
         "max": 7.5
-      },
-      "lovibond": null,
-      "srm": null
+      }
     },
     "maxUsage": 1
   },
